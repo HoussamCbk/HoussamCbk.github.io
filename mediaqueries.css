@@ -110,9 +110,10 @@
     justify-content: center;
   }
 .section__pic-container1 {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+   width: 200px;
+    height: 200px;
+    margin: 0 auto 2rem;
+    margin-left: 39%;
     
   } 
   
