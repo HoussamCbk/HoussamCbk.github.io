@@ -122,17 +122,22 @@
   }
 
   .section__pic-container1 {
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 50vw;
     justify-content: center;
-    
+    margin-left: 0;
+    margin-right: 0;
   } 
   .section__text__p2 {
     font-size: 1.25rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
+   
   }
+ .abouttext{
+  margin-top: 150px;
+ }
   .text-container {
     text-align: justify;
   }
