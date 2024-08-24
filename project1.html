@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="mediaqueries1.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"  rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Choubik Houssam</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Certificates</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="seemore">
+        <p class="section__text__p1">Discover my project</p>
+      <h1 class="titleproject">Hospital Automatisation</h1>
+      <div class="article-container">
+        <img
+          src="./projectsimage/Hospital automatisation.jpg"
+          alt="Project 1"
+          class="project-img"
+        />
+      </div>
+      <div class="olive">
+      <article>
+        <h2>La problématique</h2>
+        <p>De nos jours, les hôpitaux , CHU, centres de santé font face à une diminution de la main d’œuvre, le nombre d’infirmiers qui s’occupent des patients décroit de plus en plus vite.
+            En outre les hôpitaux font face aux problèmes financiers ne les permettant pas d’acquérir les dernières technologies.
+        </p>
+      </article>
+      <article>
+        <h2>La solution</h2>
+        <p>Notre solution est la suivante : créer un robot qui réalisera les taches des infirmiers, notamment donner le repas aux patients, apporter des médicaments et même transporter du matériels depuis la salle de stockage vers la salle d’opération.
+            Ce projet permettra ainsi de faciliter la gestion de l’hôpital et de résoudre les problèmes mentionnés avant.            
+        </p>
+      </article>
+      <article>
+        <h2>Le projet hospital automatisation</h2>
+        <p>Le projet Hospital automatisation consiste en un robot suiveur de ligne muni de capteurs infrarouge détecteur de couleur ainsi qu’un mécanisme d’élévateur en ciseau.            
+        </p>
+      </article>
+      <article>
+        <h2>Sa fonctionalité</h2>
+        <p>Transporter des médicaments d’une salle à une autre sans avoir besoin d’une aide humaine.
+        </p>
+      </article>
+      </div>
+    </section>
+
+ 
+
+
+    <section id="projects">
+      <p class="section__text__p1">Other</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-color-container">
+            <div class="article-container">
+              <img
+                src="./projectsimage/Hospital automatisation.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Hostpital Automatisation</h2>
+            <div class="btn-container">
+              <button
+                class="btn"
+                onclick="location.href='project1.html'"
+              >
+               See more
+              </button>
+            </div>
+          </div>
+          
+          </div>
+          
+        </div>
+      </div>
+      
+    </section>
+    <section id="contact">
+        <div class="btn-container">
+            <button
+              class="btn"
+              onclick="location.href='index.html'"
+            >
+             Return to Home
+            </button>
+          </div>
+    </section>
+    <footer>
+      <nav class="nav1">
+        <div class="nav-links-container">
+          <ul class="nav-links1">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>2024 &copy Choubik Houssam | All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+  </body>
+</html>
