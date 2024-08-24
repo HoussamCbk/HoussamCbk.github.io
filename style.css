@@ -253,6 +253,7 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  
 }
 
 .section-container {
@@ -426,17 +427,22 @@ section {
 
 #about {
   position: relative;
+
+
 }
+
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .about-containers,
@@ -468,6 +474,7 @@ section {
   gap: 4rem;
   height: 80%;
 }
+
 
 .section__pic-container1 {
   height: 400px;
