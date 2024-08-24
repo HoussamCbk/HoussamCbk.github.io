@@ -124,8 +124,7 @@
   .section__pic-container1 {
     width: 200px;
     height: 200px;
-    margin: 0 auto 2rem;
-    margin-left: 30%;
+    justify-content: center;
     
   } 
   .section__text__p2 {
